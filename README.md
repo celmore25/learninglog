@@ -33,3 +33,11 @@ For a few days I have been thinking about how I should go about my personal lear
 ## Current Favorites
 
 ## Future Learnings
+
+### Machine Learning
+* https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
+* http://www.mlebook.com/wiki/doku.php 
+
+### Data Engineering
+
+### Infrastructure
