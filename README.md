@@ -6,12 +6,24 @@ For a few days I have been thinking about how I should go about my personal lear
 
 | Date | Title | Type | Link | Personal Rating |
 |---------|-------|------|------|------|
-| 6/20/2020 | Data Science Infrastructure | Podcast | https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b | 6 |
+| 6/20/2020 | Deploying a Streamlit App on Heroku | Tutorial | [link](https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku) | 8 |
+| 6/21/2020 | Data Science Infrastructure | Podcast | [link](https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b) | 6 |
+
 
 ## Continuous Learning Notes
 
-* Data Science Infrastructure Podcast
+
+* Deploying a Streamlit App with Heroku Tutorial
   * Date: 6/20/2020
+  * Summary: This tutorial walked through how to deploy a streamlit app on a heroku server
+  * Key Learnings:
+    * How to build a streamlit app
+    * How to deploy to heroku
+    * Using github to sync with a Heroku Application
+    * Final output (for father's day)
+      * [my web app](https://enigmatic-springs-10364.herokuapp.com/)
+* Data Science Infrastructure Podcast
+  * Date: 6/21/2020
   * Summary: An interview with the founder of dotscience who goes over the challenges of ML Dev Ops and how it is fundamentally different that just software engineering.
   * Key Learnings:
     * Learning to deploy models in a sustainable manner (Docker, Kubes, CICD) is going to be a huge plus for any data scientist
