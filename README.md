@@ -1,13 +1,13 @@
 # Clay's Personal Learning Log
 
-For a few days I have been thinking about how I should go about my personal learning. While listening to a podcast from TDS, I heard about making an effort every day to "get in the gym", so my goal will now be to get into the data science gym everyday starting today. This can be as much as working on a project, or as simple as reading a DS blog post. Please find my findings below!
+For a few days I have been thinking about how I should go about my personal learning. While listening to a podcast from TDS, I heard about making an effort every day to "get in the gym" even if you don't work out as hard as possible. So, my goal will now be to get into the data science gym everyday starting today. This can be as much as working on a project, or as simple as reading a DS blog post. Please see my findings below!
 
 ## Continuous Learning Table with Links
 
-| Date | Title | Type | Link | Personal Rating |
+| Date | Title | Content Type | Link | Personal Rating |
 |---------|-------|------|------|------|
 | 6/20/2020 | Deploying a Streamlit App on Heroku | Tutorial | [link](https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku) | 8 |
-| 6/21/2020 | Data Science Infrastructure | Podcast | [link](https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b) | 6 |
+| 6/21/2020 | Data Science Infrastructure and MLops | Podcast | [link](https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b) | 6 |
 
 
 ## Continuous Learning Notes
