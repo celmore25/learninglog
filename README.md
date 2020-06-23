@@ -48,7 +48,7 @@ For a few days I have been thinking about how I should go about my personal lear
     * The two basic skills needed in a successful ML team are 1) ML foundations and 2) software engineering skills.
 * **Machine Learning Engineering: Chapter 3: Data Collection and Prep**
   * Date: 6/23/2020
-  * Summary: 
+  * Summary: This chapter goes over the process of curating raw data for a ML project. Topics covered include determining data sizing, data quality, bias, leakage, missing data, 
   * Key Learnings:
     * Plotting learning curves is not just a good method for model exploration but also a good method for determining data sizing needs.
     * Context of where/when/how data is obtained can be just as valuable as the raw data in a dataset.
