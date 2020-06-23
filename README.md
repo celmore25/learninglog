@@ -39,13 +39,18 @@ For a few days I have been thinking about how I should go about my personal lear
     * Make sure to distinguish between the business goal and the machine learning goal. They are rarely the same.
 * **Machine Learning Engineering: Chapter 2: Before the Project Starts**
   * Date: 6/22/2020
-  * Summary: 
+  * Summary: This chapter goes through challenges in prioritizing, sizing difficulty, and building a team when it comes to machine learning projects all through the eyes of a business decision.
   * Key Learnings:
     * There are two main things to consider when prioritizing an ML project
       * Impact: how is the ML implementation going to easy a currently problem
       * Cost: things that impact cost are difficulty, data, and accuracy
     * Assessing the difficulty of an ML project is very difficult. There is no substitute for experience here which is why logging projects can be so helpful in future planning. However, POC, smaller problems are a good place to start.
     * The two basic skills needed in a successful ML team are 1) ML foundations and 2) software engineering skills.
+* **Machine Learning Engineering: Chapter 3: Data Collection and Prep**
+  * Date: 6/23/2020
+  * Summary: 
+  * Key Learnings:
+    * 
 
 ## Current Favorites
 
