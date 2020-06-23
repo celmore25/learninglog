@@ -50,7 +50,11 @@ For a few days I have been thinking about how I should go about my personal lear
   * Date: 6/23/2020
   * Summary: 
   * Key Learnings:
-    * 
+    * Plotting learning curves is not just a good method for model exploration but also a good method for determining data sizing needs.
+    * Context of where/when/how data is obtained can be just as valuable as the raw data in a dataset.
+    * Bias in datasets can be both engrained in the raw data and a function of the data scientist who is gathering the data. Both are detrimental to algorithm performance.
+    * One of the best ways to avoid bias is to "peer review" data collection similar to code reviews.
+    * Data leakage that is sometimes hard to find is when future data is buried in what is considered past data. The best way to avoid this is by having a good understanding of the data being input to a model.
 
 ## Current Favorites
 
