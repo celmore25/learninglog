@@ -9,6 +9,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/20/2020 | Deploying a Streamlit App on Heroku | Tutorial | [link](https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku) | 8 |
 | 6/21/2020 | Data Science Infrastructure and MLops | Podcast | [link](https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b) | 6 |
 | 6/22/2020 | Machine Learning Engineering: Introduction, Before the Project Starts | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 7 |
+| 6/22/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) |  |
 
 
 ## Continuous Learning Notes
@@ -48,13 +49,31 @@ For a few days I have been thinking about how I should go about my personal lear
     * The two basic skills needed in a successful ML team are 1) ML foundations and 2) software engineering skills.
 * **Machine Learning Engineering: Chapter 3: Data Collection and Prep**
   * Date: 6/23/2020
-  * Summary: This chapter goes over the process of curating raw data for a ML project. Topics covered include determining data sizing, data quality, bias, leakage, missing data, 
+  * Summary: This chapter goes over the process of curating raw data for a ML project. Topics covered include determining data sizing, data quality, bias, leakage, missing data, data augmentation, sampling, and best practices for data versioning and documentation.
   * Key Learnings:
     * Plotting learning curves is not just a good method for model exploration but also a good method for determining data sizing needs.
     * Context of where/when/how data is obtained can be just as valuable as the raw data in a dataset.
     * Bias in datasets can be both engrained in the raw data and a function of the data scientist who is gathering the data. Both are detrimental to algorithm performance.
     * One of the best ways to avoid bias is to "peer review" data collection similar to code reviews.
     * Data leakage that is sometimes hard to find is when future data is buried in what is considered past data. The best way to avoid this is by having a good understanding of the data being input to a model.
+    * An advanced data imputation technique is to build a regression/classification problem to solve for the missing data then input that data into an ML model.
+    * Image and text augmentation can greatly improve generalization for deep learning frameworks in these fields.
+      * Common techniques include: changing an image (flip, contrast, loss, noise, etc..), image addition, text hypernyms, text back translation, and BERT text changing
+    * Sampling data correctly (especially in skewed distributions) can be the key to breaking through performance barriers without aquiring new data.
+    * Great quote: "data first, algorithm second"
+    * I should pay more attention to reproducability
+* **Machine Learning Engineering: Chapter 4: Feature Engineering**
+  * Date: 6/23/2020
+  * Summary: 
+  * Key Learnings:
+    * Mean encoding is a great alternative to OHE which is shown to not always be the best option for creating a numerical feature
+    * Sin-cos tranformation should be used for cyclical features (days of week, season, etc.)
+    * Speed of feature calculation is important. You can't be waiting on slow API's in production even if predictive power is high (@wikipedia)
+    * Need to check out Boruta in the future for feature selection
+    * When data clearly fits into buckets, clustering features to create new ones can be a good idea
+    * Standardize with outlier, bell curves, and clustering; normalize for most other cases
+    * Consider feature removal only is absolutely necessay
+
 
 ## Current Favorites
 
