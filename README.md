@@ -82,6 +82,7 @@ For a few days I have been thinking about how I should go about my personal lear
 ### Modeling / Algorithms
 * https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
 * http://themlbook.com/wiki/doku.php
+* https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8
 
 ### ML Engineering
 * http://www.mlebook.com/wiki/doku.php 
