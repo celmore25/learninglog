@@ -9,7 +9,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/20/2020 | Deploying a Streamlit App on Heroku | Tutorial | [link](https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku) | 8 |
 | 6/21/2020 | Data Science Infrastructure and MLops | Podcast | [link](https://towardsdatascience.com/data-science-infrastructure-and-mlops-ba0da1c4d8b) | 6 |
 | 6/22/2020 | Machine Learning Engineering: Introduction, Before the Project Starts | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 7 |
-| 6/22/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 9 |
+| 6/23/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 9 |
+| 6/24/2020 | Machine Learning Engineering: Supervised Learning | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 6 |
 
 
 ## Continuous Learning Notes
@@ -64,7 +65,7 @@ For a few days I have been thinking about how I should go about my personal lear
     * I should pay more attention to reproducability
 * **Machine Learning Engineering: Chapter 4: Feature Engineering**
   * Date: 6/23/2020
-  * Summary: 
+  * Summary: This chapter goes over the fundamentals of feature engineering cover what is a good feature, how to deal with different irregularities in raw data, how to expand feature sets, and best computational practice.
   * Key Learnings:
     * Mean encoding is a great alternative to OHE which is shown to not always be the best option for creating a numerical feature
     * Sin-cos tranformation should be used for cyclical features (days of week, season, etc.)
@@ -73,6 +74,24 @@ For a few days I have been thinking about how I should go about my personal lear
     * When data clearly fits into buckets, clustering features to create new ones can be a good idea
     * Standardize with outlier, bell curves, and clustering; normalize for most other cases
     * Consider feature removal only is absolutely necessay
+* **Machine Learning Engineering: Chapter 5 (section 1): Supervised Learning**
+  * Date: 6/24/2020
+  * Summary: This chapter covers how to train a model once you have collected data and performed feature engineering. The chapter stresses how this is probably the least important part of the entire ML pipeline even though it gets a lot of attention. Topics covered are evaluation, metrics, algorithm selection, hypertuning, calibration, and pipelines.
+  * Key Learnings:
+    * Before the modeling process make sure to pick a metric, baseline, 3 datasets (train, validate, test), and define the necessary performance (usually a business decision)
+    * *Page 12 (5.1) has an awesome algorithm selection flowchart from sci-kit*
+    * Understanding the production requirements is most important when selecting an algorithm
+    * ACPER is a good regression metric when you have a good idea of what (%) error is "good" for a given problem
+    * Variance-bias tradeoff does not have a set answer, it has a range of answers which are problem dependent
+    * A good research/learning software task would be to create a pipeline that tunes feature engineering hyperparameters as well as model parameters
+    * Plot your calibration curves!
+
+* **Machine Learning Engineering: Chapter 5 (section 2): Supervised Learning**
+  * Date: 6/24/2020
+  * Summary: This chapter goes over deep learning training techniques, 
+  * Key Learnings:
+    * 
+    * 
 
 
 ## Current Favorites
