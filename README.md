@@ -11,6 +11,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/22/2020 | Machine Learning Engineering: Introduction, Before the Project Starts | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 7 |
 | 6/23/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 9 |
 | 6/24/2020 | Machine Learning Engineering: Supervised Learning | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 6 |
+| 6/25/2020 | Machine Learning Engineering: Model Evaluation, Deployment, and Monitoring | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 4 |
 
 
 ## Continuous Learning Notes
@@ -85,16 +86,45 @@ For a few days I have been thinking about how I should go about my personal lear
     * Variance-bias tradeoff does not have a set answer, it has a range of answers which are problem dependent
     * A good research/learning software task would be to create a pipeline that tunes feature engineering hyperparameters as well as model parameters
     * Plot your calibration curves!
-
 * **Machine Learning Engineering: Chapter 5 (section 2): Supervised Learning**
   * Date: 6/24/2020
-  * Summary: This chapter goes over deep learning training techniques, 
+  * Summary: This chapter goes over deep learning training techniques, imbalanced datasets, and troubleshooting
   * Key Learnings:
-    * 
-    * 
+    * Dropout is meant to perform auto-regulation
+    * Learning rate hyperparameters and nodes/layer are usually the most important values to hypertune in deep learning
+    * When combining different types of data feeds (ex: image w text), train 2 networks then have a final embedding layer that feeds a sigmoid, softmax, etc.
+    * Softmx is well suited for probability learning
+    * Use an adapted metric for imbalance datasets (Cohen statistic)
+    * When your model can't handle certain examples, it's okay to remove them from training sets (if they are minimal)
+    * Error propogation is hugely important in evaluating chained models
+    * Retrain from scratch when time permits
+    * I need to write more C++ or move to scala...
+* **Machine Learning Engineering: Chapter 6: Model Evaluation**
+  * Date: 6/25/2020
+  * Summary: This chapter goes over how to evaluate a model once it is in production. Method's reviewed include A/B testing, and MAB. Model robustness and testing sets are also covered.
+  * Key Learnings:
+    * Online evalution should not just be used for monitoring but should be actively used in incremental model improvements
+    * The two basic "denominations" of A/B testing are "yes/no" or "how many". This is analagous to classification vs regression and a different statistical toolkit is needed for each problem.
+    * The easiest way to mess up an A/B test is usually not methdology but code bugs
+    * UCB1 has convergence properties (who knew...)
+    * Neuron testing is a way to determine good testing sets for neural networks. I wonder if there is an anlagous moethod for tree algorithms
+* **Machine Learning Engineering: Chapter 7: Model Deployment**
+  * Date: 6/25/2020
+  * Summary: This chapter goes over how models can be deployed in the real world including static, dynamic, cloud, and hybrid techniques. Model serialization, containers, and versioning are also touched on.
+  * Key Learnings:
+    * Silent deployment is a good way to potentially test model's as well as deploy them at the same time.
+    * Model serialization can be the difference between production and never getting there.
+* **Machine Learning Engineering: Chapter 8: Model Serving and Monitoring**
+  * Date: 6/25/2020
+  * Summary: This chapter covers the various ways that models can be served to either a machine or human, how this can go wrong, and how to monitor algorithms
+  * Key Learnings:
+    * Small erros in the model can cause huge errors when they are amplified to the population ingesting the algorithm
+    * Prediction bias is a great thing to monitor in production and can be paired with a confidence test.
 
 
 ## Current Favorites
+* **Machine Learning Engineering: Chapter 4: Feature Engineering**
+  * This section of the machine learning book I recently read was OUTSTANDING. Gave me a ton of ideas about how to handle various situations that arise in feature engineering as well as how to combat the not so favorable situations as well.
 
 ## Future Learnings
 
