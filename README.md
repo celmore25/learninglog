@@ -12,6 +12,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/23/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 9 |
 | 6/24/2020 | Machine Learning Engineering: Supervised Learning | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 6 |
 | 6/25/2020 | Machine Learning Engineering: Model Evaluation, Deployment, and Monitoring | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 4 |
+| 6/26/2020 | An Introduction to Graph Theory | Webpage | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 3 |
 
 
 ## Continuous Learning Notes
@@ -120,6 +121,20 @@ For a few days I have been thinking about how I should go about my personal lear
   * Key Learnings:
     * Small erros in the model can cause huge errors when they are amplified to the population ingesting the algorithm
     * Prediction bias is a great thing to monitor in production and can be paired with a confidence test.
+* **An Introduction to Graph Theory**
+  * Date: 6/26/2020
+  * Summary: A recent problem came up in work of "how to identify skiers in a group", and I thought this would be a good application of graph theory to some of our databases, so I set out to explore more about this emerging field of ML in which I know extremely little. This website provided a basic overview of the concept of a graph and
+  * Key Learnings:
+    * Degree of a vertix is the number of edges meeting at a vertex
+      * "Pendant" means a single connection
+      * "Isolated" is a node with no connections
+      * For directed graphs there is "indegree" and "outdegree"
+    * Eccentricity is the max distance of a single node to all other (connected) nodes in the graph
+      * Minimum of this is considered the "Radius"
+        * This node is the "Central Point"
+      * Maximum of this is considered the "Diameter"
+    * Various types of graphs exist and each one has specific properties. These include regular, complete, cycle, and many more
+    * There is a ton of jargon in graphs (similar to a lot of other mathematical fields) and I would need to spend more time understanding it if I want to go further in this field
 
 
 ## Current Favorites
