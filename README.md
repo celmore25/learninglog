@@ -137,7 +137,7 @@ For a few days I have been thinking about how I should go about my personal lear
     * Various types of graphs exist and each one has specific properties. These include regular, complete, cycle, and many more
     * There is a ton of jargon in graphs (similar to a lot of other mathematical fields) and I would need to spend more time understanding it if I want to go further in this field
 * **Algorithm Intuition and Linear Regression Podcast**
-  * Date: 6/26/2020
+  * Date: 6/27/2020
   * Summary: These two podcast episodes introducted basic concepts in ML such as supervision and reinforcement then went into basics of Linear Regression.
   * Key Learnings:
     * A review of the gradient decent algorithm
