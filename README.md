@@ -12,7 +12,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/23/2020 | Machine Learning Engineering: Data Prep, Feature Engineering | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 9 |
 | 6/24/2020 | Machine Learning Engineering: Supervised Learning | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 6 |
 | 6/25/2020 | Machine Learning Engineering: Model Evaluation, Deployment, and Monitoring | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 4 |
-| 6/26/2020 | An Introduction to Graph Theory | Webpage | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 3 |
+| 6/26/2020 | An Introduction to Graph Theory | Webpage | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 2 |
+| 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 
 
 ## Continuous Learning Notes
@@ -135,6 +136,12 @@ For a few days I have been thinking about how I should go about my personal lear
       * Maximum of this is considered the "Diameter"
     * Various types of graphs exist and each one has specific properties. These include regular, complete, cycle, and many more
     * There is a ton of jargon in graphs (similar to a lot of other mathematical fields) and I would need to spend more time understanding it if I want to go further in this field
+* **Algorithm Intuition and Linear Regression Podcast**
+  * Date: 6/26/2020
+  * Summary: These two podcast episodes introducted basic concepts in ML such as supervision and reinforcement then went into basics of Linear Regression.
+  * Key Learnings:
+    * A review of the gradient decent algorithm
+    * This topic always makes me wonder about Newton implementation in commercial/standard ML libraries. Is there a reason that so many of them do not use a second derivative based approach?
 
 
 ## Current Favorites
