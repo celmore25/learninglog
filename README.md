@@ -14,6 +14,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/25/2020 | Machine Learning Engineering: Model Evaluation, Deployment, and Monitoring | Book | [link](http://www.mlebook.com/wiki/doku.php ) | 4 |
 | 6/26/2020 | An Introduction to Graph Theory | Webpage | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 2 |
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
+| 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
 
 
 ## Continuous Learning Notes
@@ -142,6 +143,12 @@ For a few days I have been thinking about how I should go about my personal lear
   * Key Learnings:
     * A review of the gradient decent algorithm
     * This topic always makes me wonder about Newton implementation in commercial/standard ML libraries. Is there a reason that so many of them do not use a second derivative based approach?
+* **Logistic Regression Podcast**
+  * Date: 6/28/2020
+  * Summary: This podcast provided an overview of the logistic algorithm for classification. Topics included training, loss functions, and functional programming. 
+  * Key Learnings:
+    * A review of sigmoid functions, and how thresholding works in logistic regression.
+    * The most interesting/insightful point that was brought up in this podcast as the need for functional/object oriented programming in Machine Learning. The example used by the author was how a single logistic regression node is composed of a few mathematical functions that lead to an output (functional). However, this single node then makes up a neuron in deep learning. The need for OOP arises yet again in this case.
 
 
 ## Current Favorites
