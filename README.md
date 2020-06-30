@@ -15,6 +15,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/26/2020 | An Introduction to Graph Theory | Webpage | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 2 |
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 | 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
+| 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
 
 
 ## Continuous Learning Notes
@@ -149,6 +150,15 @@ For a few days I have been thinking about how I should go about my personal lear
   * Key Learnings:
     * A review of sigmoid functions, and how thresholding works in logistic regression.
     * The most interesting/insightful point that was brought up in this podcast as the need for functional/object oriented programming in Machine Learning. The example used by the author was how a single logistic regression node is composed of a few mathematical functions that lead to an output (functional). However, this single node then makes up a neuron in deep learning. The need for OOP arises yet again in this case.
+* **Bayesian Approach to Linear Mixed Modeling**
+  * Date: 6/29/2020
+  * Summary: This article provided an example fitting of a Bayesian Mixed Linear Model via MCMC. The author went over how to view convergence, picking priors, and post-model diagnostics.
+  * Key Learnings:
+    * Never underestimate EDA; it is not just about plotting data to see what it "looks like"
+    * A good first prior in Bayesian learning is "weak". This simply means to pick a prior which simply means a prior which provides an intutive feel for the interaction between variables, but does not over index on any given factor.
+    * PyMC3 should be a future learning
+    * Good MCMC fitting converges to a steady state distribution and autocorrelation dies out immediately
+    * HMC differs from MCMC because it uses first order derivative information to help speed up convergence
 
 
 ## Current Favorites
@@ -161,6 +171,8 @@ For a few days I have been thinking about how I should go about my personal lear
 * https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
 * http://themlbook.com/wiki/doku.php
 * https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8
+* https://towardsdatascience.com/bayesian-inference-intuition-and-example-148fd8fb95d6
+* https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29
 
 ### ML Engineering
 
