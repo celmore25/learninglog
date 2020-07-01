@@ -16,6 +16,7 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 | 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
 | 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
+| 6/29/2020 | Implementing Gradient Descent | Project | [link]() |  |
 
 
 ## Continuous Learning Notes
@@ -159,6 +160,12 @@ For a few days I have been thinking about how I should go about my personal lear
     * PyMC3 should be a future learning
     * Good MCMC fitting converges to a steady state distribution and autocorrelation dies out immediately
     * HMC differs from MCMC because it uses first order derivative information to help speed up convergence
+* **Implementing Gradient Descent**
+  * Date: 6/30/2020
+  * Summary: Today I realized it had been a long time since I did any linear algebra/multivariate calculus programming. I decided to start implementing gradient decent in a notebook with the eventual purpose of making it into a Bayesian model in the future.
+  * Key Learnings:
+    * A deep review of gradient decent mathematics
+    * Reviewed how to take partial derivatives with the chain rule as well as using summations
 
 
 ## Current Favorites
