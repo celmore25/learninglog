@@ -16,8 +16,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 | 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
 | 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
-| 6/29/2020 | Implementing Gradient Descent: Math | Project | [link]() | 5 |
-| 6/29/2020 | Implementing Gradient Descent: Code | Project | [link]() | 5 |
+| 6/30/2020 | Implementing Gradient Descent: Math | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 5 |
+| 7/01/2020 | Implementing Gradient Descent: Code | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 7 |
 
 
 ## Continuous Learning Notes
@@ -184,7 +184,6 @@ For a few days I have been thinking about how I should go about my personal lear
 ### Modeling / Algorithms
 * https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
 * http://themlbook.com/wiki/doku.php
-* https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8
 * https://towardsdatascience.com/bayesian-inference-intuition-and-example-148fd8fb95d6
 * https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29
 
