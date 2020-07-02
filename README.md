@@ -16,7 +16,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 | 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
 | 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
-| 6/29/2020 | Implementing Gradient Descent | Project | [link]() |  |
+| 6/29/2020 | Implementing Gradient Descent: Math | Project | [link]() | 5 |
+| 6/29/2020 | Implementing Gradient Descent: Code | Project | [link]() | 5 |
 
 
 ## Continuous Learning Notes
@@ -166,6 +167,12 @@ For a few days I have been thinking about how I should go about my personal lear
   * Key Learnings:
     * A deep review of gradient decent mathematics
     * Reviewed how to take partial derivatives with the chain rule as well as using summations
+* **Implementing Gradient Descent**
+  * Date: 7/1/2020
+  * Summary: Today I continued yesterday's learning of a gradient descent implementation and finished the code to implement the algorithm.
+  * Key Learnings:
+    * Taking a gradient wholistically from a linear algebra perspective is generally much more intuitive than with summations
+    * How to code the gradient descent algorithm
 
 
 ## Current Favorites
