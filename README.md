@@ -16,9 +16,10 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/27/2020 | Agorithm Intuition and Linear Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 6 |
 | 6/28/2020 | Logistic Regression | Podcast | [link](https://www.tutorialspoint.com/graph_theory/graph_theory_introduction) | 5 |
 | 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
-| 6/30/2020 | Implementing Gradient Descent: Math | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 5 |
-| 7/01/2020 | Implementing Gradient Descent: Code | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 7 |
+| 6/30/2020 | Implementing Gradient Descent: Math | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/linear_gradient_descent.ipynb) | 5 |
+| 7/01/2020 | Implementing Gradient Descent: Code | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/linear_gradient_descent.ipynb) | 7 |
 | 7/02/2020 | Bayesian Linear Regression | Project/Article | [link](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7) | 5 |
+| 7/03/2020 | Bayesian Linear Regression: Posteriors | Videos | [link](https://www.youtube.com/watch?v=1WvnpjljKXA) | 6 |
 
 
 
@@ -183,6 +184,14 @@ For a few days I have been thinking about how I should go about my personal lear
     * Review of Bayes' theorm
     * The most common way the posterior distribution is sampled is MCMC. This provides the posterior distribution fit.
     * Bayesian inference doesn't provide a single parameter value, it provides a confidence interval for each parameter.
+* **Bayesian Linear Regression: Posteriors**
+  * Date: 7/3/2020
+  * Summary: Today I went through part of the mathematical proof for the posterior distribution of linear parameter's using a bayesian logic. The goal is to evenutally be able to code this logic into a notebook soon.
+  * Key Learnings:
+    * Review of matrix algebra including transpose rules, symetric inverses, and multivariate gaussain distributions
+    * The goal (in bayesian terms) of linear regression is to identify the probabilty distribution of y value, given its corresponding X.
+    * When finding the posterior distribution of linear parameters, the goal is to determine the probability of the parameters, given X and y
+    * The posterior of $\theta$ is a bit of a nightmare :) 
 
 
 ## Current Favorites
