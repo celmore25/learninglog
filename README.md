@@ -18,6 +18,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 6/29/2020 | Bayesian Mixed Linear Modeling | Article | [link](https://towardsdatascience.com/a-bayesian-approach-to-linear-mixed-models-lmm-in-r-python-b2f1378c3ac8) | 6 |
 | 6/30/2020 | Implementing Gradient Descent: Math | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 5 |
 | 7/01/2020 | Implementing Gradient Descent: Code | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/gradient_descent.ipynb) | 7 |
+| 7/02/2020 | Bayesian Linear Regression | Project/Article | [link](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7) | 5 |
+
 
 
 ## Continuous Learning Notes
@@ -173,6 +175,14 @@ For a few days I have been thinking about how I should go about my personal lear
   * Key Learnings:
     * Taking a gradient wholistically from a linear algebra perspective is generally much more intuitive than with summations
     * How to code the gradient descent algorithm
+* **Bayesian Linear Regression**
+  * Date: 7/2/2020
+  * Summary: This article goes over the basic difference between frequentist and Bayesian linear regression. There is an illustrative example provided which shows how distributions are determined.
+  * Key Learnings:
+    * The goal of Bayesian Regression is to find the posterior distribution of ML parameters, not the best fit
+    * Review of Bayes' theorm
+    * The most common way the posterior distribution is sampled is MCMC. This provides the posterior distribution fit.
+    * Bayesian inference doesn't provide a single parameter value, it provides a confidence interval for each parameter.
 
 
 ## Current Favorites
