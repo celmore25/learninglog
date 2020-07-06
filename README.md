@@ -20,6 +20,8 @@ For a few days I have been thinking about how I should go about my personal lear
 | 7/01/2020 | Implementing Gradient Descent: Code | Project | [link](https://github.com/celmore25/learninglog/blob/master/materials/linear_gradient_descent.ipynb) | 7 |
 | 7/02/2020 | Bayesian Linear Regression | Project/Article | [link](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7) | 5 |
 | 7/03/2020 | Bayesian Linear Regression: Posteriors | Videos | [link](https://www.youtube.com/watch?v=1WvnpjljKXA) | 6 |
+| 7/04/2020 | Bayesian Linear Regression: Posteriors | Videos | [link](https://www.youtube.com/watch?v=1WvnpjljKXA) | 5 |
+| 7/05/2020 | Bayesian Linear Regression: Predictions | Videos | [link](https://www.youtube.com/watch?v=1WvnpjljKXA) | 4 |
 
 
 
@@ -192,6 +194,18 @@ For a few days I have been thinking about how I should go about my personal lear
     * The goal (in bayesian terms) of linear regression is to identify the probabilty distribution of y value, given its corresponding X.
     * When finding the posterior distribution of linear parameters, the goal is to determine the probability of the parameters, given X and y
     * The posterior of $\theta$ is a bit of a nightmare :) 
+* **Bayesian Linear Regression: Posteriors**
+  * Date: 7/4/2020
+  * Summary: Today I continued the mathematical proof for the posterior distribution of linear parameter's using a bayesian logic. The goal is to evenutally be able to code this logic into a notebook soon.
+  * Key Learnings:
+    * The posterior distribution of $\theta$ can be broken down into a simple normal distribution based on the variance of the data, $\theta$, and the data itself. 
+    * The posterior distribution is essentail to calculate in order to determine the actual prediction of the probabilistic distribution of y at the end of the regression.
+* **Bayesian Linear Regression: Prediction Distributions**
+  * Date: 7/5/2020
+  * Summary: After deriving the posterior distribution inf bayesian linear regression, I went through some more vidors about deriving the predictive distribution of the output from regression. 
+  * Key Learnings:
+    * The predictive distribution can again just be determined from the posterior probability distribution of $\theta$ which was derived from the priors
+    * This prediction is a huge pain and I can understand why there is a desire to work with frequentist models. However, it seems like knowing the inner workings of this kind of derivations is essential to being able to understand Bayesian inference implementation.
 
 
 ## Current Favorites
